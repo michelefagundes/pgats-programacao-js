@@ -13,14 +13,17 @@ jobs:
         with:
           node-version: latest
 
+       # instalação do Yarn
       - name: Instalando Yarn
         run: npm install -g yarn
-
+      
+      # instalação das dependências
       - name: Instalando dependências
         run: yarn
-
+      
+      # instalação do Playwright
       - name: Instalando Playwright
-        run: yarn playwright install --with-deps
+        run: yarn playwright install
 
       - name: Executando Testes E2E
         run: yarn run e2e
