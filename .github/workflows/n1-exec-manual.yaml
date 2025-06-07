@@ -18,12 +18,12 @@ jobs:
 
       - name: Instalando dependências
         run: yarn
-        working-directory: ./testes
+        working-directory: ./trabalho-final-programacao/testes
 
       - name: Instalando Playwright
         run: yarn playwright install
-        working-directory: ./testes
+        working-directory: ./trabalho-final-programacao/testes
 
       - name: Executando Testes E2E
         run: yarn run e2e
-        working-directory: ./testes
+        working-directory: ./trabalho-final-programacao/testes
