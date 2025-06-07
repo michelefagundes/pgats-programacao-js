@@ -6,7 +6,7 @@ import {
   calcularConsumoDeRacao,
   decidirTipoDeAtividadePorPorte,
   buscarDadoAsync
-} from './trabalho-final-programacao-funcoes.js'
+} from '../funções/trabalho-final-programacao-funcoes.js'
 
 describe('Testes da disciplina - fundamentos JS', () => {
   
@@ -30,5 +30,4 @@ describe('Testes da disciplina - fundamentos JS', () => {
     const resultado = await buscarDadoAsync();
     assert.strictEqual(resultado, 'Pipoca');
   });
-
 });
