@@ -4,7 +4,8 @@
   "main": "aula-05.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "e2e": "playwright test trabalho-final-programacao/testes/"
   },
   "keywords": [],
   "author": "",
