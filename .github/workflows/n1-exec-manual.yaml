@@ -20,7 +20,7 @@ jobs:
         run: yarn
 
       - name: Instalando Playwright
-        run: yarn playwright install
+        run: yarn playwright install --with-deps
 
       - name: Executando Testes E2E
         run: yarn run e2e
