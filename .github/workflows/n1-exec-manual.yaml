@@ -18,11 +18,9 @@ jobs:
 
       - name: Instalando dependências
         run: yarn
-        working-directory: trabalho-final-programacao/testes
 
       - name: Instalando Playwright
-        run: npx playwright install
-        working-directory: trabalho-final-programacao/testes
+        run: yarn playwright install
 
       - name: Executando Testes E2E
         run: yarn run e2e
