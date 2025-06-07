@@ -21,7 +21,7 @@ jobs:
         working-directory: trabalho-final-programacao/testes
 
       - name: Instalando Playwright
-        run: yarn playwright install
+        run: npx playwright install
         working-directory: trabalho-final-programacao/testes
 
       - name: Executando Testes E2E
